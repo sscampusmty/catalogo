@@ -2,7 +2,7 @@
 import styles from "./page.module.css";
 
 import Columns from "@/utils/pages/acreditaciones/columns.json";
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 
 // COMPONENTS
@@ -25,6 +25,21 @@ import { Column } from '@/types/Table';
 import BadgesPopup from "./components/BadgesPopup";
 
 export default function Home() {
+  return (
+    <Suspense fallback={
+      <main className={styles.main}>
+        <Navbar/>
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+          <ActivityIndicator color="var(--primary)" />
+        </div>
+      </main>
+    }>
+      <StudentsContent />
+    </Suspense>
+  );
+}
+
+function StudentsContent() {
   const params = useSearchParams();
   
   const projectName = URLParse(params.get("proyecto") || "");
