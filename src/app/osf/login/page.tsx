@@ -1,7 +1,7 @@
 "use client"
 import styles from "./page.module.css";
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 
 // HELPER FUNCTIONS
@@ -19,6 +19,21 @@ import { DialogState } from "@/types/Dialog";
 
 
 export default function Login() {
+  return (
+    <Suspense fallback={
+      <main className={styles.main}>
+        <Navbar/>
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+          <ActivityIndicator color="var(--primary)" />
+        </div>
+      </main>
+    }>
+      <LoginContent />
+    </Suspense>
+  );
+}
+
+function LoginContent() {
   const router = useRouter();
   const params = useSearchParams();
 

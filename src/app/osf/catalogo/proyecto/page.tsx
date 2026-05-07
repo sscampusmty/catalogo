@@ -1,5 +1,5 @@
 "use client"
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, Suspense } from 'react';
 import styles from './page.module.css';
 // import FormFields from '../FormFields.json';
 import { useSearchParams } from 'next/navigation';
@@ -21,6 +21,21 @@ import { TabFields, Tab } from '@/types/Tabs';
 import { DialogState } from '@/types/Dialog';
 
 export default function Proyectos() {
+    return (
+        <Suspense fallback={
+            <main className={styles.main}>
+                <Navbar/>
+                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+                    <ActivityIndicator color="var(--primary)" />
+                </div>
+            </main>
+        }>
+            <ProyectosContent />
+        </Suspense>
+    );
+}
+
+function ProyectosContent() {
     const API_URL = process.env.API_URL;
 
     const params = useSearchParams();
