@@ -1,0 +1,431 @@
+{
+  "General": {
+    "email": {
+      "type": "email",
+      "title": "Email Address",
+      "value": "test@gmail.com",
+      "description": "Correo electrónico del remitente registrado en el formulario.",
+      "locked": true
+    },
+    "osfName": {
+      "type": "textArea",
+      "title": "Nombre oficial de la OSF",
+      "value": "",
+      "description": "Nombre completo de la Organización Socio Formadora.",
+      "locked": false
+    },
+    "signerName": {
+      "type": "text",
+      "title": "Nombre de firmante",
+      "value": "",
+      "description": "Persona que firmará los documentos oficiales de Servicio Social.",
+      "locked": false
+    },
+    "signerPosition": {
+      "type": "text",
+      "title": "Puesto del firmante",
+      "value": "",
+      "description": "Cargo de la persona que firmará los documentos.",
+      "locked": false
+    },
+    "signerPhone": {
+      "type": "tel",
+      "title": "Teléfono del firmante",
+      "value": "",
+      "description": "10 dígitos, sin espacios ni guiones.",
+      "locked": false
+    },
+    "signerEmail": {
+      "type": "email",
+      "title": "Correo del firmante",
+      "value": "",
+      "description": "Correo electrónico de la persona que firma los documentos.",
+      "locked": false
+    },
+    "osfActivity": {
+      "type": "textArea",
+      "title": "¿A qué se dedica la OSF?",
+      "value": "",
+      "description": "Descripción breve de las actividades o misión de la OSF.",
+      "locked": false
+    },
+    "osfPopulation": {
+      "type": "textArea",
+      "title": "Población atendida",
+      "value": "",
+      "description": "Características de la población (edad, sexo, necesidad, etc.). Ejemplo: “Niñas y niños de 1ro de primaria…”",
+      "locked": false
+    },
+    "annualBeneficiaries": {
+      "type": "number",
+      "title": "Beneficiarios anuales",
+      "value": "",
+      "description": "Número estimado de personas atendidas por año.",
+      "locked": false
+    },
+    "osfLink": {
+      "type": "text",
+      "title": "Sitio web / RRSS",
+      "value": "",
+      "description": "Link a página de internet y/o redes sociales de la OSF.",
+      "locked": false
+    },
+    "sector": {
+      "type": "options",
+      "title": "Sector SEP",
+      "value": "",
+      "description": "Sector al que pertenece la OSF según clasificación SEP.",
+      "options": [],
+      "locked": false
+    },
+    "orgType": {
+      "type": "options",
+      "title": "Tipo de organización",
+      "value": "",
+      "description": "Seleccione si es pública, privada o social.",
+      "options": [],
+      "locked": false
+    },
+    "odsPrincipal": {
+      "type": "options",
+      "title": "ODS principal (OSF)",
+      "value": "",
+      "description": "Objetivo de Desarrollo Sostenible clave para la OSF.",
+      "options": [],
+      "locked": false
+    }
+  },
+
+  "Proyecto": {
+    "projectName": {
+      "type": "text",
+      "title": "Nombre del Proyecto",
+      "value": "",
+      "description": "Título oficial del proyecto solidario.",
+      "locked": false
+    },
+    "projectObjective": {
+      "type": "textArea",
+      "title": "Objetivo del Proyecto",
+      "value": "",
+      "description": "Descripción clara del propósito o meta del proyecto.",
+      "locked": false
+    },
+    "isRepeated": {
+      "type": "boolean",
+      "title": "Repetición de proyecto",
+      "value": "",
+      "description": "¿Se ha ofrecido este proyecto en periodos anteriores?",
+      "locked": false
+    },
+    "projectOrigin": {
+      "type": "text",
+      "title": "Origen del Proyecto",
+      "value": "",
+      "description": "¿De dónde surgió la idea del proyecto?",
+      "locked": false
+    },
+    "projectCategory": {
+      "type": "options",
+      "title": "Categoría SEP",
+      "value": "",
+      "description": "Categoría de la SEP en la que se enmarca el proyecto.",
+      "options": [],
+      "locked": false
+    },
+    "vulnerabilityType": {
+      "type": "text",
+      "title": "Tipo de vulnerabilidad",
+      "value": "",
+      "description": "Vulnerabilidad(es) de la población atendida.",
+      "locked": false
+    },
+    "activities": {
+      "type": "textArea",
+      "title": "Actividades principales",
+      "value": "",
+      "description": "Al menos 5 acciones que realizarán los estudiantes.",
+      "locked": false
+    },
+    "deliverable": {
+      "type": "textArea",
+      "title": "Entregable final",
+      "value": "",
+      "description": "Producto, servicio o resultado esperado.",
+      "locked": false
+    },
+    "competencies": {
+      "type": "text",
+      "title": "Competencias",
+      "value": "",
+      "description": "1 o 2 competencias que se desarrollan.",
+      "locked": false
+    },
+    "studentValues": {
+      "type": "text",
+      "title": "Valores promovidos",
+      "value": "",
+      "description": "Valor o actitud fomentada en el estudiantado.",
+      "locked": false
+    }
+  },
+
+  "Impacto social": {
+    "socialProblem": {
+      "type": "textArea",
+      "title": "Problema social",
+      "value": "",
+      "description": "Descripción del problema con datos o estadísticas.",
+      "locked": false
+    },
+    "projectOds": {
+      "type": "options",
+      "title": "ODS principal (Proyecto)",
+      "value": "",
+      "description": "ODS clave al que contribuye el proyecto.",
+      "options": [],
+      "locked": false
+    },
+    "projectBeneficiaries": {
+      "type": "text",
+      "title": "Beneficiarios directos",
+      "value": "",
+      "description": "Número o área interna beneficiada por la actividad.",
+      "locked": false
+    },
+    "indicators": {
+      "type": "textArea",
+      "title": "Indicadores cuantitativos",
+      "value": "",
+      "description": "Métricas que medirán el alcance del proyecto.",
+      "locked": false
+    },
+    "impactMeasurement": {
+      "type": "textArea",
+      "title": "Medición de impacto",
+      "value": "",
+      "description": "Cómo evaluarán el cambio social (antes y después).",
+      "locked": false
+    }
+  },
+
+  "Detalles operativos": {
+    "projectPeriod": {
+      "type": "text",
+      "title": "Periodo ofertado",
+      "value": "",
+      "description": "Periodo académico en que se ofrece el proyecto.",
+      "locked": false
+    },
+    "projectDuration": {
+      "type": "text",
+      "title": "Duración y fechas",
+      "value": "",
+      "description": "Fechas de inicio y fin del proyecto.",
+      "locked": false
+    },
+    "modality": {
+      "type": "options",
+      "title": "Modalidad",
+      "value": "",
+      "description": "Presencial, Mixto o En línea.",
+      "options": ["Presencial", "Mixto", "En línea"],
+      "locked": false
+    },
+    "address": {
+      "type": "textArea",
+      "title": "Domicilio (si aplica)",
+      "value": "",
+      "description": "Calle, número, colonia y municipio de las actividades.",
+      "locked": false
+    },
+    "provideTransport": {
+      "type": "boolean",
+      "title": "Transporte facilitado",
+      "value": "",
+      "description": "¿La OSF facilitará transporte a los estudiantes?",
+      "locked": false
+    },
+    "onlineTool": {
+      "type": "text",
+      "title": "Herramienta en línea",
+      "value": "",
+      "description": "Plataforma de conexión síncrona semanal.",
+      "locked": false
+    },
+    "schedule": {
+      "type": "text",
+      "title": "Días y horario",
+      "value": "",
+      "description": "Tiempo comprometido para las actividades.",
+      "locked": false
+    },
+    "scheduleType": {
+      "type": "options",
+      "title": "Tipo de horario",
+      "value": "",
+      "description": "¿Es fijo o variable?",
+      "options": ["Fijo", "Variable"],
+      "locked": false
+    },
+    "inCatalogue": {
+      "type": "boolean",
+      "title": "Aparecer en catálogo",
+      "value": "",
+      "description": "¿Desea que el proyecto esté en el Catálogo de SS?",
+      "locked": false
+    },
+    "capacityTec21": {
+      "type": "number",
+      "title": "Cupo Tec21",
+      "value": "",
+      "description": "Número de plazas solicitadas para estudiantes Tec21.",
+      "locked": false
+    },
+    "registrationMethod": {
+      "type": "textArea",
+      "title": "Método de inscripción",
+      "value": "",
+      "description": "Cómo podrán inscribirse los estudiantes.",
+      "locked": false
+    },
+    "interviewContact": {
+      "type": "text",
+      "title": "Contacto para entrevista",
+      "value": "",
+      "description": "Medio (WA, correo, link) para entrevistar a los postulantes.",
+      "locked": false
+    }
+  },
+
+  "Responsable de proyecto": {
+    "projResponsibleName": {
+      "type": "text",
+      "title": "Nombre del Responsable",
+      "value": "",
+      "description": "",
+      "locked": false
+    },
+    "projResponsiblePosition": {
+      "type": "text",
+      "title": "Puesto del Responsable",
+      "value": "",
+      "description": "",
+      "locked": false
+    },
+    "projResponsibleEmail": {
+      "type": "email",
+      "title": "Email del Responsable",
+      "value": "",
+      "description": "",
+      "locked": false
+    },
+    "projResponsiblePhone": {
+      "type": "tel",
+      "title": "Teléfono del Responsable",
+      "value": "",
+      "description": "",
+      "locked": false
+    }
+  },
+
+  "Seguridad y transporte": {
+    "hasFee": {
+      "type": "boolean",
+      "title": "¿Cuota de recuperación?",
+      "value": "true",
+      "description": "¿El proyecto requiere cuota de recuperación?",
+      "locked": true
+    },
+    "feeAmount": {
+      "type": "text",
+      "title": "Monto de la cuota",
+      "value": "",
+      "description": "Cantidad de la cuota de recuperación.",
+      "locked": false
+    },
+    "feePurpose": {
+      "type": "textArea",
+      "title": "Destino de la cuota",
+      "value": "",
+      "description": "Finalidad del cobro o aportación.",
+      "locked": false
+    },
+    "feeCommitment": {
+      "type": "boolean",
+      "title": "Compromiso de uso",
+      "value": "",
+      "description": "Confirmo que no se usará para gastos operativos.",
+      "locked": false
+    },
+    "confirmProtectResources": {
+      "type": "boolean",
+      "title": "Conozco ProTect",
+      "value": "",
+      "description": "Confirmo conocimiento de recursos ProTect (https://protect.tec.mx).",
+      "locked": false
+    },
+    "confirmOrgResponsible": {
+      "type": "boolean",
+      "title": "Responsable OSF presente",
+      "value": "",
+      "description": "Confirmo que un responsable OSF acompañará a los estudiantes.",
+      "locked": false
+    },
+    "confirmSecurityManual": {
+      "type": "boolean",
+      "title": "Conozco Manual SS",
+      "value": "",
+      "description": "Confirmo lectura del Manual de Seguridad de SS.",
+      "locked": false
+    },
+    "acceptSecurityBase": {
+      "type": "boolean",
+      "title": "Acepto medidas base",
+      "value": "",
+      "description": "Acepto seguros, botiquín, protocolos e información de contacto.",
+      "locked": false
+    },
+    "otherSecurityMeasures": {
+      "type": "textArea",
+      "title": "Otras medidas de seguridad",
+      "value": "",
+      "description": "Medidas adicionales que implementará la OSF.",
+      "locked": false
+    }
+  },
+
+  "Eligibilidad": {
+    "requirements": {
+      "type": "textArea",
+      "title": "Requisitos",
+      "value": "",
+      "description": "Habilidades o experiencia previa necesarias.",
+      "locked": false
+    },
+    "careerProfile": {
+      "type": "textArea",
+      "title": "Perfil de carrera",
+      "value": "",
+      "description": "Tipo de perfil profesional requerido.",
+      "locked": false
+    },
+    "areaProfile": {
+      "type": "options",
+      "title": "Área de perfil",
+      "value": "",
+      "description": "Selecciona el área de perfil profesional requerida.",
+      "options": [
+        "Ambiente Construido",
+        "Ciencias Sociales",
+        "Estudios Creativos",
+        "Ingeniería y Ciencias",
+        "Negocios",
+        "Salud",
+        "otra opcion"
+      ],
+      "locked": false,
+      "section": ""
+    }
+  }
+}

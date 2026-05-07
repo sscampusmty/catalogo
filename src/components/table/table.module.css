@@ -1,0 +1,95 @@
+.table {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-y: hidden;
+    max-height: 500px;
+}
+
+.columnNamesContainer {
+    display: flex;
+    padding: 0 1%;
+    column-gap: 1rem;
+}
+
+.columnNameContainer {
+    display: flex;
+    align-items: center;
+}
+
+.columnName {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    line-height: 0.95rem;
+}
+
+.columnDetailsButton {
+    cursor: pointer;
+    font-family: "Encode Sans Condensed", sans-serif;
+    font-weight: 800;
+    font-size: 0.6rem;
+    border: 2px solid var(--black);
+    border-radius: 100px;
+    padding: 0 0.24rem;
+    margin-left: 0.5rem;
+}
+
+.rowContainer {
+    height: 100%;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    background-color: var(--light-gray);
+    border-radius: 7px;
+    margin-top: 0.7rem;
+    padding: 0.6rem 1%;
+    column-gap: 1rem;
+    min-width: 1100px;
+    width: fit-content;
+}
+
+.clickableRow {
+    cursor: pointer;
+}
+
+.cellContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.checkbox {
+    align-self: center;
+    width: 15px;
+    height: 15px;
+}
+
+.input {
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.75rem;
+    padding: 0.2rem 0.3rem;
+    border: none;
+}
+
+.cell {
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+}
+
+.long {
+    width: 22rem;
+}
+
+.medium {
+    width: 10rem;
+}
+
+.short {
+    width: 6rem;
+}

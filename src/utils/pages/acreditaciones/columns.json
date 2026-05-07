@@ -1,0 +1,113 @@
+{
+    "projects": [
+        {
+            "name": "Proyecto",
+            "key": "proyecto",
+            "type": "text",
+            "editable": false,
+            "width": "long"
+        },
+        {
+            "name": "CRN",
+            "key": "crn",
+            "type": "text",
+            "editable": false,
+            "width": "short"
+        },
+        {
+            "name": "Grupo",
+            "key": "grupo",
+            "type": "text",
+            "editable": false,
+            "width": "short"
+        },
+        {
+            "name": "Clave de Materia",
+            "key": "clave_materia",
+            "type": "text",
+            "editable": false,
+            "width": "short"
+        },
+        {
+            "name": "Fecha Fin",
+            "key": "fecha_fin",
+            "type": "text",
+            "editable": false,
+            "width": "short"
+        },
+        {
+            "name": "Horas Por Acreditar",
+            "key": "horas_por_acreditar",
+            "type": "text",
+            "editable": false,
+            "width": "short"
+        },
+        {
+            "name": "Duracion",
+            "key": "duracion",
+            "type": "text",
+            "editable": false,
+            "width": "medium"
+        }
+        
+    ],
+    "students": [
+        {
+            "name": "Matrícula",
+            "key": "matricula",
+            "type": "text",
+            "editable": false,
+            "width": "short"
+        },
+        {
+            "name": "Nombre Completo del Alumno(a)",
+            "key": "nombre_completo_del_alumnoa",
+            "type": "text",
+            "editable": false,
+            "width": "long"
+        },
+        {
+            "name": "Carrera",
+            "key": "carrera",
+            "type": "text",
+            "editable": false,
+            "width": "short"
+        },
+        {
+            "name": "Alumno(a) Destacado",
+            "key": "alumnoa_destacado",
+            "columnDetails": true,
+            "type": "boolean",
+            "editable": true,
+            "width": "short"
+        },
+        {
+            "name": "Comentarios",
+            "key": "comentarios",
+            "type": "text",
+            "editable": true,
+            "width": "long"
+        },
+        {
+            "name": "Horas Acreditadas",
+            "key": "horas_acreditadas",
+            "type": "number",
+            "editable": true,
+            "width": "short"
+        },
+        {
+            "name": "Baja",
+            "key": "baja",
+            "type": "boolean",
+            "editable": true,
+            "width": "short"
+        },
+        {
+            "name": "Calificación en Canvas",
+            "key": "calificacion_en_canvas",
+            "type": "number",
+            "editable": false,
+            "width": "medium"
+        }
+    ]
+}

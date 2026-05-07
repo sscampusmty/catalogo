@@ -1,0 +1,26 @@
+.loadingColumn {
+  animation: shining 1.5s infinite;
+  border-radius: 5px;
+  width: 17%;
+  height: 25px;
+}
+
+.loadingRow {
+  animation: shining 1.5s infinite;
+  width: 100%;
+  height: 50px;
+  margin-top: 1rem;
+  border-radius: 6px;
+}
+
+@keyframes shining {
+  0% {
+    background-color: #f6f7f8;
+  }
+  50% {
+    background-color: var(--light-gray);
+  }
+  100% {
+    background-color: #f6f7f8;
+  }
+}

@@ -1,0 +1,232 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.title {
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: 900;
+    max-width: 50vw;
+    text-align: center;
+}
+
+@media screen and (max-width: 1100px) {
+    .title {
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+        max-width: 70vw;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .title {
+        font-size: 3rem;
+        line-height: 3rem;
+        max-width: 75vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .title {
+        max-width: 80vw;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .title {
+        font-size: 2.6rem;
+        line-height: 2.7rem;
+        max-width: 85vw;
+    }
+}
+
+.welcomeMessage {
+    font-size: 0.95rem;
+    line-height: 1.3rem;
+    text-align: center;
+    margin: 1.2rem 16vw;
+}
+
+@media screen and (max-width: 1400px) {
+    .welcomeMessage {
+        margin: 1rem 10vw;
+    }
+    
+}
+
+@media screen and (max-width: 1300px) {
+    .welcomeMessage {
+        margin: 1rem 10vw;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .welcomeMessage {
+        margin: 1rem 5vw;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .welcomeMessage {
+        margin: 1rem 2vw;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .welcomeMessage {
+        margin: 1rem 10vw;
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .welcomeMessage {
+        font-size: 0.8rem;
+        line-height: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .welcomeMessage {
+        margin: 1rem 5vw;
+    }
+}
+
+.loginContainer {
+    background-color: var(--blue);
+    border-radius: 10px;
+    padding: 1.5rem 2.5rem 2rem 2.5rem;
+    margin: 0 4vw;
+    color: var(--white);
+}
+
+@media screen and (max-width: 500px) {
+    .loginContainer {
+        padding: 1.5rem 1.5rem 2rem 1.5rem;
+    }
+}
+
+.loginTitle {
+    font-size: 1.6rem;
+}
+
+@media screen and (max-width: 500px) {
+    .loginTitle {
+        margin-bottom: 0.5rem;
+        font-size: 1.4rem;
+    }
+}
+
+.loginDescription {
+    font-size: 0.85rem;
+}
+
+@media screen and (max-width: 680px) {
+    .loginDescription {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .loginDescription {
+        font-size: 0.75rem;
+        line-height: 0.8rem;
+    }
+}
+
+.inputContainer {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputContainer label {
+    font-size: 0.85rem;
+    margin-bottom: 0.3rem;
+    font-family: "Poppins", sans-serif;
+}
+
+@media screen and (max-width: 680px) {
+    .inputContainer label {
+        font-size: 0.77rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .inputContainer label {
+        font-size: 0.7rem;
+    }
+}
+
+.inputInsideContainer {
+    display: flex;
+    background-color: var(--white);
+    align-items: center;
+    width: 100%;
+    height: 1.9rem;
+    border-radius: 4px;
+    padding: 0 0.5rem;
+}
+
+.inputInsideContainer input {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    margin-left: 0.5rem;
+    border-radius: 4px;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.8rem;
+}
+
+.passwordInputContainer {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.passwordButton {
+    background-color: var(--blue);
+    border: 2px solid var(--white);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 1rem;
+    color: var(--white);
+    width: 62%;
+    height: 1.9rem;
+    border-radius: 3px;
+    font-size: 0.85rem;
+}
+
+@media screen and (max-width: 680px) {
+    .passwordButton {
+        font-size: 0.75rem;
+        width: 80%;
+        margin-left: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .passwordButton {
+        font-size: 0;
+        width: 15%;
+        padding-left: 0.2rem;
+    }
+}
+
+.loginButton {
+    margin-top: 2rem;
+    border: none;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 0.6rem 2.7rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}

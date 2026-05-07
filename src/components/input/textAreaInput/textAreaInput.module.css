@@ -1,0 +1,8 @@
+.input {
+    outline: none;
+    border: 2px solid var(--purple);
+    border-radius: 5px;
+    padding: 0.45rem 0.7rem;
+    font-size: 0.7rem;
+    font-family: 'Poppins', sans-serif;
+}

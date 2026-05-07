@@ -1,0 +1,96 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    padding-top: 85px;
+    overflow: auto;
+    height: 100vh;
+}
+
+.lastUpdate {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin: 0 2rem;
+    margin-bottom: 0.7rem;
+}
+
+.lastUpdate span {
+    margin-left: 0.5rem;
+    font-weight: 400;
+    font-size: 0.7rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.title {
+    font-size: 2.4rem;
+    font-weight: 800;
+    line-height: 1;
+    margin: 0 2rem;
+    margin-bottom: 0.3rem;
+}
+
+.buttonsContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2rem;
+    gap: 1rem;
+}
+
+.button {
+    font-family: "Encode Sans Condensed", sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 0.75rem;
+    color: var(--purple);
+    background: #fff;
+    border: 2px solid var(--purple);
+    border-radius: 6px;
+    padding: 0.7rem 1.5rem;
+    cursor: pointer;
+    width: 100%;
+    background-color: var(--light-purple);
+    border: none;
+    margin-top: 2rem;
+}
+
+.button.send {
+    background: var(--purple);
+    color: #fff;
+}
+
+.buttonsInfo {
+    margin: 0 2rem;
+    margin-top: 1rem;
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: var(--purple);
+    padding-bottom: 4rem;
+    text-align: center;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    height: 90%;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 0;
+    height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+@media (min-width: 1200px) {
+    .contentContainer {
+        flex-direction: row;
+        align-items: flex-start;
+        margin-top: 1.5rem;
+    }
+}

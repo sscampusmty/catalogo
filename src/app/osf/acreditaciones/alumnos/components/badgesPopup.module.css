@@ -1,0 +1,41 @@
+.popupTitle {
+    font-size: 1.9rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.popupDescription {
+    font-size: 0.86rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    margin: 0.5rem 4rem 1rem 4rem;
+}
+
+.badgeContainer {
+    background-color: var(--blue);
+    color: var(--white);
+    width: 250px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 1.5rem 1rem;
+    flex-shrink: 0;
+    margin-bottom: 1rem;
+}
+
+.badgeTitle {
+    margin-bottom: 0.8rem;
+}
+
+.badgeDescription {
+    font-size: 0.82rem;
+    margin-bottom: 1rem;
+    line-height: 1.1rem;
+}
+
+.badgesContainer {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    flex-shrink: 0;
+}

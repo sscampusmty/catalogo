@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.checkIndicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.8rem;
+    width: 28px;
+    height: 17px;
+    border-radius: 100px;
+    border: 2px solid var(--purple);
+    margin-top: 0.2rem;
+}
+
+.checkIndicatorSelected {
+    background-color: var(--purple);
+    width: 9px;
+    height: 9px;
+    border-radius: 100px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.projectName {
+    font-family: "Encode Sans Condensed", sans-serif;
+    font-weight: 800;
+    font-size: 0.9rem;
+    margin: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 0.6rem;
+}
+
+.metadataContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 0.2rem 1.6rem;
+}
+
+.info {
+    font-size: 0.65rem;
+    font-weight: 500;
+}
+
+.label {
+    font-family: "Encode Sans Condensed", sans-serif;
+    font-weight: 600;
+    font-size: 0.7rem;
+    margin-right: 0.5rem;
+}

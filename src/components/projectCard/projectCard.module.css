@@ -1,0 +1,101 @@
+.container {
+    border: 2px solid var(--purple);
+    border-radius: 8px;
+    width: 100%;
+    min-width: 400px;
+    max-width: 500px;
+}
+
+.header {
+    background-color: var(--purple);
+    color: var(--white);
+    padding: 1rem;
+}
+
+.title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.lastUpdate {
+    font-size: 0.7rem;
+}
+
+.type {
+    font-size: 0.65rem;
+    background-color: white;
+    color: var(--purple);
+    padding: 0.2rem 0.7rem;
+    border-radius: 20px;
+}
+
+.body {
+    padding: 1rem 1rem 1rem 1.1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem 0rem;
+}
+
+.info {
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.label {
+    font-family: "Encode Sans Condensed", sans-serif;
+    font-weight: 600;
+    font-size: 0.75rem;
+    margin-right: 0.5rem;
+}
+
+.lastUpdate .label {
+    font-family: "Encode Sans Condensed", sans-serif;
+    font-weight: 600;
+    margin-right: 0.4rem;
+    font-size: 0.8rem;
+}
+
+.buttonsContainer {
+    display: flex;
+}
+
+.button {
+    margin-left: 1rem;
+    border: none;
+    background-color: var(--light-purple);
+    color: var(--purple);
+    padding: 0.5rem 1.5rem;
+    font-size: 0.65rem;
+    font-weight: 900;
+    border-radius: 4px;
+    margin-bottom: 1.2rem;
+    cursor: pointer;
+}
+
+.renewButton {
+    background-color: var(--white);
+    text-decoration-line: underline;
+    padding: 0.5rem 0.5rem 0rem 0.5rem;
+}
+
+.inactive .container {
+    border-color: var(--dark-gray);
+}
+
+.inactive .header {
+    background-color: var(--dark-gray);
+}
+
+.inactive .button {
+    color: var(--white);
+    background-color: var(--dark-gray);
+    font-weight: 600;
+}
+
+.projectInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}

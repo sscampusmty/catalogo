@@ -1,0 +1,21 @@
+.buttonsContainer {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    background: none;
+    outline: none;
+    border: 1px solid var(--purple);
+    color: var(--purple);
+    padding: 0.3rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: var(--purple);
+    color: white;
+}
